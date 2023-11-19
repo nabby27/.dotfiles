@@ -2,13 +2,13 @@
 
 # Ensure rust is installed
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+source $HOME/.cargo/env
 rustup override set stable
 rustup update stable
-source $HOME/.cargo/env
 
 # Install dependencies
 sudo apt update
-sudo apt -y scdoc install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+sudo apt -y install scdoc cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
 
 # Build Alacritty
 cd ~/.dotfiles/config/alacritty/alacritty
@@ -19,7 +19,7 @@ infocmp alacritty
 sudo tic -xe alacritty,alacritty-direct ~/.dotfiles/config/alacritty/alacritty/extra/alacritty.info
 
 # Add desktop entry
-sudo rm -rf /usr/local/bin/alacritty 
+sudo rm -rf /usr/local/bin/alacritty
 sudo ln -s ~/.dotfiles/config/alacritty/alacritty/target/release/alacritty /usr/local/bin/alacritty # or anywhere else in $PATH
 
 sudo rm -rf /usr/share/pixmaps/Alacritty.svg
@@ -41,7 +41,7 @@ scdoc < ~/.dotfiles/config/alacritty/alacritty/extra/man/alacritty-bindings.5.sc
 # echo 'fpath+=${ZDOTDIR:-~}/.zsh_functions' >> ${ZDOTDIR:-~}/.zshrc
 # cp extra/completions/_alacritty ${ZDOTDIR:-~}/.zsh_functions/_alacritty
 
-# Add as default terminal 
+# Add as default terminal
 gsettings set org.gnome.desktop.default-applications.terminal exec /usr/local/bin/alacritty
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 

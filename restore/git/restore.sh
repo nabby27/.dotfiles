@@ -1,7 +1,7 @@
 # !/bin/bash
 
 # Ensure git is installed
-sudo apt udpate
+sudo apt update
 sudo apt install -y git
 
 # Create symlinks
