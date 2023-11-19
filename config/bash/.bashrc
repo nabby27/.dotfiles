@@ -125,4 +125,4 @@ fi
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
-source "$HOME/Documents/alacritty/extra/completions/alacritty.bash"
+source "$HOME/.dotfiles/config/alacritty/alacritty/extra/completions/alacritty.bash"

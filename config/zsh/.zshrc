@@ -34,6 +34,8 @@ source ~/.zsh/fzf-zsh-plugin/fzf-zsh-plugin.plugin.zsh
 
 source ~/.dotfiles/config/powerlevel10k/powerlevel10k/powerlevel10k.zsh-theme
 
+source ~/.dotfiles/config/alacritty/alacritty/extra/completions/alacritty.bash
+
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
