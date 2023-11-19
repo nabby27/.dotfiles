@@ -1,0 +1,30 @@
+[submodule "config/tmux/.tmux/plugins/tmux"]
+	path = config/tmux/.tmux/plugins/tmux
+	url = git@github.com:catppuccin/tmux.git
+[submodule "config/alacritty/alacritty"]
+	path = config/alacritty/alacritty
+	url = git@github.com:alacritty/alacritty.git
+[submodule "config/alacritty/config/themes"]
+	path = config/alacritty/config/themes
+	url = git@github.com:alacritty/alacritty-theme.git
+[submodule "config/nvim/nvchad"]
+	path = config/nvim/nvchad
+	url = git@github.com:NvChad/NvChad.git
+[submodule "config/powerlevel10k/powerlevel10k"]
+	path = config/powerlevel10k/powerlevel10k
+	url = git@github.com:romkatv/powerlevel10k.git
+[submodule "config/tmux/.tmux/plugins/tmux-sensible"]
+	path = config/tmux/.tmux/plugins/tmux-sensible
+	url = git@github.com:tmux-plugins/tmux-sensible.git
+[submodule "config/tmux/.tmux/plugins/tpm"]
+	path = config/tmux/.tmux/plugins/tpm
+	url = git@github.com:tmux-plugins/tpm.git
+[submodule "config/zsh/.zsh/zsh-autosuggestions"]
+	path = config/zsh/.zsh/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "config/zsh/.zsh/fzf-zsh-plugin"]
+	path = config/zsh/.zsh/fzf-zsh-plugin
+	url = git@github.com:unixorn/fzf-zsh-plugin.git
+[submodule "config/nvm/nvm"]
+	path = config/nvm/nvm
+	url = git@github.com:nvm-sh/nvm.git

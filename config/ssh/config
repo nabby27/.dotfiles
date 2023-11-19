@@ -1,0 +1,24 @@
+Host github.com-personal
+        User git
+        Hostname github.com
+        IdentityFile ~/.ssh/personal
+
+Host github.com-lacueva
+        User git
+        HostName github.com
+        IdentityFile ~/.ssh/lacuevadelcodigo
+
+Host github.com-avant
+        User git
+        Hostname github.com
+        IdentityFile ~/.ssh/avant
+
+Host github.com
+        User git
+        Hostname github.com
+        IdentityFile ~/.ssh/personal
+
+Host gitlab.com-personal
+        User git
+        Hostname gitlab.com
+        IdentityFile ~/.ssh/personal-gitlab

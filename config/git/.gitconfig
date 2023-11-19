@@ -1,0 +1,9 @@
+[user]
+	name = nabby27
+	email = ivancordoba77@gmail.com
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+[alias]
+	adog = log --all --decorate --oneline --graph
