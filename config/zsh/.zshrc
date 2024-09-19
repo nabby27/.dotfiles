@@ -58,3 +58,7 @@ alias gpullsub="git submodule update --force --recursive --init --remote"
 
 # Utils
 alias k='kill -9'
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"
+export PATH=$HOME/.local/bin:$PATH

@@ -1,3 +1,8 @@
+Host metrics.opire.dev
+        User ubuntu
+        Hostname metrics.opire.dev
+        IdentityFile ~/.ssh/OpenObserveSSH.pem
+
 Host github.com-personal
         User git
         Hostname github.com
@@ -22,3 +27,8 @@ Host gitlab.com-personal
         User git
         Hostname gitlab.com
         IdentityFile ~/.ssh/personal-gitlab
+
+Host admin.opire
+        User ubuntu
+        HostName 51.178.182.70
+        IdentityFile ~/.ssh/opire_vps_ovh
